@@ -66,7 +66,6 @@ def main(data_path: str, model_path: str) -> None:
 
     save_model(clf, model_path)
 
-
 #Load and validate data
 def load_and_validate_data(data_path: str) -> pd.DataFrame:
     """
